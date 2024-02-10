@@ -16,25 +16,25 @@
 
 /* RESET */
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 /* GENERAL */
 html {
-  font-size: 14px;
-  line-height: 1.6rem;
   background-color: rgb(255, 255, 255);
   font-family: var(--fuente-body);
+  font-size: 14px;
+  line-height: 1.6rem;
 }
 
 /* HEADER */
 header {
-  padding: 1.8rem 1.5rem;
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding: 1.8rem 1.5rem;
 }
 
 header img {
@@ -42,32 +42,32 @@ header img {
 }
 
 header a {
-  color: var(--rosa);
-  text-decoration: none;
-  font-size: 0.8rem;
   border: 1px solid var(--rosa);
   border-radius: 50px;
+  color: var(--rosa);
+  font-size: 0.8rem;
   padding: 0.3rem 1.2rem;
+  text-decoration: none;
 }
 
 header a:hover {
-  color: var(--rosa-claro);
   border: 1px solid var(--rosa-claro);
   box-shadow: 0 0 0.2rem var(--rosa-claro);
+  color: var(--rosa-claro);
 }
 
 /* BODY */
 /* SECCION INFORMACION */
 section.seccion-informacion {
   color: var(--cian-oscuro);
-  width: 80%;
   margin: 6rem auto 1rem;
   text-align: center;
+  width: 80%;
 }
 
 section.seccion-informacion h1 {
-  font-weight: 800;
   font-size: 1.9rem;
+  font-weight: 800;
   line-height: 2.7rem;
 }
 
@@ -77,16 +77,16 @@ section.seccion-informacion p {
 
 a.seccion-informacion-boton {
   background-color: var(--rosa);
-  color: white;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 0.9rem;
-  display: block;
-  width: max-content;
-  padding: 0.8rem 2.5rem;
-  margin: 0 auto 7rem;
   border-radius: 50px;
   box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
+  color: white;
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0 auto 7rem;
+  padding: 0.8rem 2.5rem;
+  text-decoration: none;
+  width: max-content;
 }
 
 a.seccion-informacion-boton:hover {
@@ -98,27 +98,27 @@ section.seccion-informacion a.seccion-informacion-boton + img {
 }
 
 div.contenido-informacion {
-  width: max-content;
   margin: 7rem auto 0;
+  width: max-content;
 }
 
 div.contenido-informacion img {
-  width: 2rem;
-  margin-left: 0.7rem;
   display: block;
+  margin-left: 0.7rem;
   text-align: left;
+  width: 2rem;
 }
 
 div.contenido-informacion p.cantidad {
-  font-weight: 700;
   font-size: 4.2rem;
+  font-weight: 700;
   margin: 1.9rem 0 2.3rem;
 }
 
 div.contenido-informacion p.subtitulo {
   font-weight: 600;
-  opacity: 45%;
   margin: 0.6rem auto 0;
+  opacity: 45%;
 }
 
 /* SECCIONES */
@@ -133,11 +133,11 @@ img.ancho-pc {
 }
 
 div.contenedor-seccion {
+  align-items: center;
   background-color: var(--azul-palido);
   color: var(--cian-oscuro);
   display: flex;
   flex-direction: column-reverse;
-  align-items: center;
   text-align: center;
 }
 
@@ -148,8 +148,8 @@ div.seccion-fondo-blanco {
 }
 
 div.contenedor-seccion img {
-  width: 70%;
   margin: 3rem 0 7rem;
+  width: 70%;
 }
 
 div.contenido-seccion {
@@ -158,8 +158,8 @@ div.contenido-seccion {
 
 div.contenido-seccion h3 {
   font-family: var(--fuente-encabezados);
-  font-weight: 700;
   font-size: 1.5rem;
+  font-weight: 700;
 }
 
 div.contenido-seccion p {
@@ -172,12 +172,12 @@ section.seccion-boton {
 }
 
 section.seccion-boton p {
-  font-weight: 800;
   font-size: 1.7rem;
+  font-weight: 800;
   line-height: 2.7rem;
-  width: 70%;
-  text-align: center;
   margin: 7rem auto 3rem;
+  text-align: center;
+  width: 70%;
 }
 
 /* FOOTER */
@@ -198,9 +198,9 @@ div.footer-subscripcion h3 {
 }
 
 form {
+  align-items: flex-end;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
 }
 
 form div {
@@ -208,13 +208,13 @@ form div {
 }
 
 form input {
-  width: 100%;
-  height: 3.2rem;
   border: 0;
   border-radius: 5px;
+  height: 3.2rem;
+  margin-bottom: 24.39px;
   outline: 0;
   padding: 0 10px;
-  margin-bottom: 24.39px;
+  width: 100%;
 }
 
 form input:invalid {
@@ -224,8 +224,8 @@ form input:invalid {
 
 form div p {
   color: var(--rojo-claro);
-  font-size: 0.7rem;
   display: none;
+  font-size: 0.7rem;
 }
 
 form input:invalid + p {
@@ -234,13 +234,13 @@ form input:invalid + p {
 
 form button {
   background-color: var(--rosa);
-  color: white;
-  font-weight: 600;
-  font-size: 1.1rem;
-  height: 3.2rem;
-  padding: 0 2.5rem;
   border: 0;
   border-radius: 5px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  height: 3.2rem;
+  padding: 0 2.5rem;
 }
 
 form button:hover {
@@ -252,8 +252,8 @@ div.footer-contacto {
 }
 
 div.footer-contacto-item {
-  display: flex;
   align-items: center;
+  display: flex;
   margin-bottom: 1rem;
 }
 
@@ -287,9 +287,9 @@ div.contenedor-redes-sociales ion-icon:hover {
   }
 
   header a {
+    border: 2px solid var(--rosa);
     font-size: 1.2rem;
     font-weight: 600;
-    border: 2px solid var(--rosa);
     padding: 0.5rem 2rem;
   }
 
@@ -300,8 +300,8 @@ div.contenedor-redes-sociales ion-icon:hover {
   section.seccion-informacion h1 {
     font-size: 3rem;
     line-height: 4rem;
-    max-width: 80%;
     margin: auto;
+    max-width: 80%;
   }
 
   section.seccion-informacion p {
@@ -348,13 +348,13 @@ div.contenedor-redes-sociales ion-icon:hover {
   }
 
   section.seccion-informacion {
-    width: 100%;
     margin-bottom: 10rem;
+    width: 100%;
   }
 
   section.seccion-informacion p {
-    width: 45%;
     margin: 2rem auto 3rem;
+    width: 45%;
   }
 
   section.seccion-informacion a.seccion-informacion-boton + img {
@@ -381,8 +381,8 @@ div.contenedor-redes-sociales ion-icon:hover {
   }
 
   div.contenedor-seccion img {
-    width: 35%;
     margin: 0;
+    width: 35%;
   }
 
   div.contenido-seccion {
@@ -401,8 +401,8 @@ div.contenedor-redes-sociales ion-icon:hover {
   }
 
   div.footer-contacto {
-    width: 30%;
     margin-top: 0;
+    width: 30%;
   }
 
   div.footer-subscripcion {
@@ -418,15 +418,15 @@ div.contenedor-redes-sociales ion-icon:hover {
   }
 
   form {
-    flex-direction: row;
     align-items: initial;
+    flex-direction: row;
     justify-content: space-between;
   }
 
   form input {
-    width: 90%;
-    height: 3rem;
     display: block;
+    height: 3rem;
+    width: 90%;
   }
 
   form input:invalid {
@@ -435,7 +435,7 @@ div.contenedor-redes-sociales ion-icon:hover {
 
   form button {
     height: 3rem;
-    width: 35%;
     padding: 0;
+    width: 35%;
   }
 }
