@@ -48,6 +48,7 @@ header a {
   font-size: 0.8rem;
   padding: 0.3rem 1.2rem;
   text-decoration: none;
+  transition: all 0.8s;
 }
 
 header a:hover {
@@ -87,6 +88,7 @@ a.seccion-informacion-boton {
   padding: 0.8rem 2.5rem;
   text-decoration: none;
   width: max-content;
+  transition: all 0.8s;
 }
 
 a.seccion-informacion-boton:hover {
@@ -241,10 +243,12 @@ form button {
   font-weight: 600;
   height: 3.2rem;
   padding: 0 2.5rem;
+  transition: all 0.8s;
 }
 
 form button:hover {
   background-color: var(--rosa-claro);
+  cursor: pointer;
 }
 
 div.footer-contacto {
@@ -266,6 +270,7 @@ div.contenedor-redes-sociales ion-icon {
   color: white;
   font-size: 1.8rem;
   margin: 2rem 0.8rem 0 0;
+  transition: all 0.8s;
 }
 
 div.contenedor-redes-sociales ion-icon:hover {
