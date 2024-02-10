@@ -31,6 +31,10 @@ Users should be able to:
 #### Mobile 420px
 ![](./screenshots/mobile-screenshot.jpg)
 
+### Link
+
+- Live Site URL: [GitHub Pages](https://sebastian-agrano.github.io/frontend-mentor-huddle-landing-page-with-curved-sections/)
+
 ## My process
 
 ### Built with
