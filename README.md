@@ -1,6 +1,6 @@
 # Frontend Mentor - Huddle landing page with curved sections solution
 
-This is a solution to the [Huddle landing page with curved sections challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Huddle landing page with curved sections challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -24,12 +24,15 @@ Users should be able to:
 ### Screenshot
 
 #### Deskop 1920px
+
 ![](./screenshots/deskop-screenshot.jpg)
 
 #### Tablet 768px
+
 ![](./screenshots/tablet-screenshot.jpg)
 
 #### Mobile 420px
+
 ![](./screenshots/mobile-screenshot.jpg)
 
 ### Link
@@ -44,6 +47,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Media queries
+- Mobile first
 
 ## Author
 

@@ -158,7 +158,7 @@ div.contenido-seccion {
   width: 85%;
 }
 
-div.contenido-seccion h3 {
+div.contenido-seccion h2 {
   font-family: var(--fuente-encabezados);
   font-size: 1.5rem;
   font-weight: 700;
@@ -173,7 +173,7 @@ section.seccion-boton {
   margin-bottom: 15rem;
 }
 
-section.seccion-boton p {
+section.seccion-boton h3 {
   width: 70%;
   margin: 7rem auto 3rem;
   font-size: 1.7rem;
@@ -234,7 +234,7 @@ form input:invalid + p {
   display: initial;
 }
 
-form button {
+.submit {
   height: 3.2rem;
   padding: 0 2.5rem;
   border: 0;
@@ -246,7 +246,7 @@ form button {
   transition: all 0.8s;
 }
 
-form button:hover {
+.submit:hover {
   background-color: var(--rosa-claro);
   cursor: pointer;
 }
@@ -277,9 +277,9 @@ div.contenedor-redes-sociales ion-icon:hover {
   color: cyan;
 }
 
-.separador-footer {
+/* .separador-footer {
   display: inline-block;
-}
+} */
 
 /* MEDIAS QUERIES*/
 @media (min-width: 768px) {
