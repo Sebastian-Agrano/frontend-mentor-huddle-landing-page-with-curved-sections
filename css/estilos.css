@@ -277,10 +277,6 @@ div.contenedor-redes-sociales ion-icon:hover {
   color: cyan;
 }
 
-/* .separador-footer {
-  display: inline-block;
-} */
-
 /* MEDIAS QUERIES*/
 @media (min-width: 768px) {
   html {
